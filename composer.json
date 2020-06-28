@@ -1,0 +1,30 @@
+{
+    "name": "david-kurniawan/omnipay-nicepay",
+    "type": "library",
+    "description": "Nicepay driver for the Omnipay payment processing library",
+    "keywords": [
+        "gateway",
+        "nicepay",
+        "merchant",
+        "omnipay",
+        "pay",
+        "payment"
+    ],
+    "homepage": "https://github.com/david-kurniawan/omnipay-nicepay",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Kurniawan",
+            "email": "jatinangorservice@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "Omnipay\\Nicepay\\" : "src/" }
+    },
+    "require": {
+        "omnipay/common": "^2.0||^3.0"
+    },
+    "require-dev": {
+        "omnipay/tests": "^2.0||^3.0"
+    }
+}
